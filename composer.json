@@ -15,6 +15,6 @@
         }
     },
     "require": {
-        "wpscholar/wp-context": "~1.0"
+        "wpscholar/wp-context": "^1.0.1"
     }
 }
