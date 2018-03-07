@@ -26,7 +26,7 @@ class ContextualTemplates {
 		foreach ( $contexts as $context ) {
 			$templates[] = "{$slug}-{$context}.php";
 		}
-		$templates = "{$slug}.php";
+		$templates[] = "{$slug}.php";
 
 		$templates = apply_filters( __METHOD__, $templates, $slug, $contexts );
 
